@@ -1,0 +1,12 @@
+.label-input {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.input-app {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(0,0,0,0.2);
+    width: 100%;
+    font-size: 20px;
+}

@@ -2,6 +2,7 @@ import './styles.css';
 import 'swiper/css';
 
 import { useState, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { BsArrowRightShort } from "react-icons/bs";
@@ -11,6 +12,7 @@ import placeholder3 from '../../assets/img/placeholder3.png';
 import placeholder4 from '../../assets/img/placeholder4.png';
 
 const Onboarding = () => {
+  const navigate = useNavigate();
   const swiperRef = useRef(null);
   const [selectedDot, setSelectedDot] = useState(1);
 
@@ -18,13 +20,13 @@ const Onboarding = () => {
     <div>
         <div id='images-container'>
           <div id='horizontal-images'>
-            <img src={placeholder1} width={130} height={190} />
-            <img src={placeholder2} className='image-right' width={200} height={190} />
+            <img src={placeholder1} className='image' width={130} height={190} />
+            <img src={placeholder2} className='image-right image' width={200} height={190} />
           </div>
 
           <div id='horizontal-images'>
-            <img src={placeholder3} width={200} height={190} />
-            <img src={placeholder4} className='image-right' width={130} height={190} />
+            <img src={placeholder3} className='image' width={200} height={190} />
+            <img src={placeholder4} className='image-right image' width={130} height={190} />
           </div>
 
         </div>
@@ -73,7 +75,7 @@ const Onboarding = () => {
                   setSelectedDot(selectedDot + 1)
                   swiperRef.current.swiper.slideNext(200);
                 } else {
-                  // navegar para login
+                  navigate('/login');
                 }
               }}
             >

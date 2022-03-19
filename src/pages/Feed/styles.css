@@ -1,0 +1,127 @@
+#feed-container {
+    color: #182f45;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 80vh;
+}
+
+#saudacao {
+    font-size: 16px;
+}
+
+#subtext-1 {
+    font-size: 25px;
+}
+
+#stories-person {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+#stories-feed {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#stories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#stories-name-person {
+    margin-top: 5px;
+}
+
+.categorie {
+    min-width: 250px;
+    height: 230px;
+    border-radius: 30px;
+    background-position: center;
+    background-size: 300px;
+    padding-top: 20px;
+    padding-left: 17px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    z-index: 2;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.21); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.21);
+}
+
+.categorie:not(:first-child) {
+    margin-left: 20px;
+}
+
+#level-categorie {
+    background-color: #47cc54;
+    width: 20%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#categories-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+#menu-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-box-shadow: 5px -3px 15px 5px rgba(0,0,0,0.25); 
+    box-shadow: 5px -3px 15px 5px rgba(0,0,0,0.25);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #628af1;
+    cursor: pointer;
+}
+
+.label-icon-menu {
+    font-size: 12px;
+}
+
+#outline-stories {
+    border-width: 1px;
+    border-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: black;
+}

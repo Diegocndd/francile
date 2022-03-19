@@ -86,7 +86,7 @@
     padding-left: 6px;
 }
 
-img {
+.image {
     border-radius: 30px;
     -webkit-box-shadow: 5px -1px 15px 8px rgba(0,0,0,0.1); 
     box-shadow: 5px -1px 15px 8px rgba(0,0,0,0.1);
