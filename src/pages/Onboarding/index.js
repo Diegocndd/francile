@@ -5,6 +5,10 @@ import { useState, useRef } from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { BsArrowRightShort } from "react-icons/bs";
+import placeholder1 from '../../assets/img/placeholder1.png';
+import placeholder2 from '../../assets/img/placeholder2.png';
+import placeholder3 from '../../assets/img/placeholder3.png';
+import placeholder4 from '../../assets/img/placeholder4.png';
 
 const Onboarding = () => {
   const swiperRef = useRef(null);
@@ -12,7 +16,19 @@ const Onboarding = () => {
 
   return (
     <div>
-        <div id='images-container'></div>
+        <div id='images-container'>
+          <div id='horizontal-images'>
+            <img src={placeholder1} width={130} height={190} />
+            <img src={placeholder2} className='image-right' width={200} height={190} />
+          </div>
+
+          <div id='horizontal-images'>
+            <img src={placeholder3} width={200} height={190} />
+            <img src={placeholder4} className='image-right' width={130} height={190} />
+          </div>
+
+        </div>
+
         <div id='swiper-container'>
           <div id='swiper-component'>
             <Swiper

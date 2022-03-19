@@ -85,3 +85,29 @@
     flex-direction: row;
     padding-left: 6px;
 }
+
+img {
+    border-radius: 30px;
+    -webkit-box-shadow: 5px -1px 15px 8px rgba(0,0,0,0.1); 
+    box-shadow: 5px -1px 15px 8px rgba(0,0,0,0.1);
+}
+
+.image-right {
+    margin-left: 15px;
+}
+
+#images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#horizontal-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    /* width: 25px; */
+    margin-top: 15px;
+}
