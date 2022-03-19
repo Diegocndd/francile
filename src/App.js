@@ -11,6 +11,8 @@ import Onboarding from "./pages/Onboarding";
 import Login from "./pages/Login";
 import Feed from "./pages/Feed";
 import Storyview from './pages/Storyview';
+import Desafios from './pages/Desafios';
+import Criar from './pages/Criar';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
                 <Route exact path='/login' element={<Login />} />
                 <Route exact path='/feed' element={<Feed />} />
                 <Route exact path='/stories' element={<Storyview />} />
+                <Route exact path='/desafios' element={<Desafios />} />
+                <Route exact path='/criar-desafio' element={<Criar />} />
             </Routes>
           </Router>
       </div>

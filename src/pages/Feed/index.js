@@ -73,17 +73,17 @@ const Feed = () => {
       </div>
 
       <div id='menu-footer'>
-          <div className='icon-menu'>
+          <div className='icon-menu' onClick={() => navigate('/feed')}>
             <BiHomeAlt size={30} color='#628af1' />
             <p className='label-icon-menu'>Feed</p>
           </div>
 
-          <div className='icon-menu'>
+          <div className='icon-menu' onClick={() => navigate('/desafios')}>
             <FiBookOpen size={30} color='#628af1' />
             <p className='label-icon-menu'>Desafios</p>
           </div>
 
-          <BsFillPlusCircleFill size={50} color='#376aed' />
+          <BsFillPlusCircleFill size={50} color='#376aed' onClick={() => navigate('/criar-desafio')} />
 
           <div className='icon-menu'>
             <FaSearch size={26} color='#628af1' />
