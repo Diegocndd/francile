@@ -1,6 +1,7 @@
 import './styles.css';
 
 import { useState, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import techonologiePath from '../../assets/img/technologie.png';
 import architecturePath from '../../assets/img/architecture.png';
@@ -31,6 +32,8 @@ const categories = [
 ]
 
 const Feed = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
       <div id='feed-container'>
@@ -45,7 +48,7 @@ const Feed = () => {
         <div id='stories-feed'>
           {stories.map(item => {
             return (
-                <div id='stories-container'>
+                <div id='stories-container' onClick={() => navigate('/stories')}>
                   <div style={{border: '3px solid #376aed', borderRadius: 25, padding: 3}}>
                     <div id='stories-person' style={{backgroundImage: `url(${item.path})`}} />
                   </div>

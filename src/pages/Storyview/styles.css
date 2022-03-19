@@ -1,0 +1,101 @@
+#storyview-container {
+    background-color: #376aed;
+    width: 100%;
+    height: 100%;
+}
+
+#content-stories {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: calc(80vh - 80px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+#footer-stories {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#progress-stories {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.mark-stories {
+    background-color: white;
+    width: 100px;
+    height: 3px;
+    border-radius: 3px;
+}
+
+.mark-stories:not(:first-child) {
+    margin-left: 10px;
+}
+
+#text-stories {
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 70%;
+    padding: 24px;
+}
+
+#content-text-stories {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#title-stories {
+    font-size: 17px;
+}
+
+#info-person {
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+}
+
+#user-data-stories {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#gradient-stories {
+    background:linear-gradient(black, transparent);
+    position: absolute;
+    top: 0;
+    height: 160px;
+    width: 100%;
+    z-index: 1;
+}
+
+#header-content-stories {
+    z-index: 200;
+}
+
+#button-comment {
+    background-color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#comment-text {
+    color: #376aed;
+}

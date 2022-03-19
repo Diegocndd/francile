@@ -37,8 +37,6 @@ const Onboarding = () => {
               ref={swiperRef}
               spaceBetween={50}
               slidesPerView={1}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={(swiper) => console.log(swiper)}
             >
                 <SwiperSlide className='slide-component'>
                   <p className='title-slider'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
