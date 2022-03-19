@@ -2,10 +2,11 @@
   display: flex;
   justify-content: center; 
   align-items: center;
+  background-color: gray;
 }
 
 .App {
-  background-color: blue;
+  background-color: #f8faff;
   width: 30vw;
   height: 100vh;
   position: relative;
