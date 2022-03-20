@@ -99,7 +99,7 @@ const Profile = () => {
 
           <BsFillPlusCircleFill size={50} color='#376aed' onClick={() => navigate('/criar-desafio')} />
 
-          <div className='icon-menu'>
+          <div className='icon-menu' onClick={() => navigate('/feed')}>
             <FaSearch size={26} color='#628af1' />
             <p className='label-icon-menu'>Explorar</p>
           </div>
