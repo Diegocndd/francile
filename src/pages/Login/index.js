@@ -78,8 +78,33 @@ const Login = () => {
               </div>
             </div>
           ) : (
-            <div id='form-cadastro'>
-              <p>Implementar formulário de cadastro aqui</p>
+            <div id='form-login'>
+              <div>
+                <p id='header-login'>Cadastre-se!</p>
+              </div>
+
+              <div>
+                <Input text='Nome de usuário ou email' type='text' />
+                <div id='pwd-input'>
+                  <Input text='Senha' type='password' />
+                </div>
+              </div>
+
+              <div id='button-login' onClick={() => setSelectedOpt(1)}>
+                <p>CADASTRO</p>
+              </div>
+
+              <div id='forgot-password'>
+                <p id='option-access-login'>OU ACESSE COM</p>
+              </div>
+
+              <div id='media-social-logos'>
+                <div id='media-social-content'>
+                  <img src={googleLogo} width={35}/>
+                  <img src={facebookLogo} width={35}/>
+                  <img src={twitterLogo} width={35}/>
+                </div>
+              </div>
             </div>
           )}
         </div>
