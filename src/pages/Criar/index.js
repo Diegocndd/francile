@@ -28,8 +28,6 @@ const Criar = () => {
         </div>
 
         <div style={{marginTop: 30}}>
-          {/* <Input type='textarea' placeholder='Descrição do desafio' /> */}
-          {/* <input type='textarea' width={200} className='input-app' placeholder='Descrição do desafio' /> */}
           <textarea style={{width: '100%', height: 300, fontSize: 15, fontFamily: 'Roboto'}} placeholder='Descrição do desafio'/>
         </div>
 
@@ -63,7 +61,7 @@ const Criar = () => {
             <p className='label-icon-menu'>Explorar</p>
           </div>
         
-          <div className='icon-menu'>
+          <div className='icon-menu' onClick={() => navigate('/menu')}>
             <IoMdMenu size={30} color='#628af1' />
             <p className='label-icon-menu'>Menu</p>
           </div>

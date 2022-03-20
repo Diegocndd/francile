@@ -2,7 +2,7 @@ import './App.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
 } from 'react-router-dom';
@@ -13,6 +13,8 @@ import Feed from "./pages/Feed";
 import Storyview from './pages/Storyview';
 import Desafios from './pages/Desafios';
 import Criar from './pages/Criar';
+import Menu from './pages/Menu';
+import Profile from './pages/Profile';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
                 <Route exact path='/stories' element={<Storyview />} />
                 <Route exact path='/desafios' element={<Desafios />} />
                 <Route exact path='/criar-desafio' element={<Criar />} />
+                <Route exact path='/menu' element={<Menu />} />
+                <Route exact path='/perfil' element={<Profile />} />
             </Routes>
           </Router>
       </div>

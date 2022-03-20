@@ -116,7 +116,7 @@ const Desafios = () => {
             <p className='label-icon-menu'>Explorar</p>
           </div>
         
-          <div className='icon-menu'>
+          <div className='icon-menu' onClick={() => navigate('/menu')}>
             <IoMdMenu size={30} color='#628af1' />
             <p className='label-icon-menu'>Menu</p>
           </div>

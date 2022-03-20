@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e83452e.css",
+    "main.js": "/static/js/main.48d000d2.js",
+    "static/media/person3.png": "/static/media/person3.b701ddaef85b7dd72ce4.png",
+    "static/media/architecture.png": "/static/media/architecture.3e4ae6324462aa737bab.png",
+    "static/media/placeholder3.png": "/static/media/placeholder3.3e4ae6324462aa737bab.png",
+    "static/media/placeholder2.png": "/static/media/placeholder2.1fbdde90541b4c3c970a.png",
+    "static/media/nature.jpg": "/static/media/nature.fd22d79db42408fa049d.jpg",
+    "static/media/technologie.png": "/static/media/technologie.b912cb6c3c0f61aae104.png",
+    "static/media/placeholder1.png": "/static/media/placeholder1.7a1c926c715d0b674dc7.png",
+    "static/media/arquitetura.jpg": "/static/media/arquitetura.470e40bb8887b1196525.jpg",
+    "static/media/placeholder4.png": "/static/media/placeholder4.14f3088d5db2cf10d8b1.png",
+    "static/media/facebook-logo.png": "/static/media/facebook-logo.7ef2feb80951818ac952.png",
+    "static/media/google-logo.png": "/static/media/google-logo.78998f2b8d305a32427e.png",
+    "static/media/person1.png": "/static/media/person1.2820b7fc58e8b55a5d86.png",
+    "static/media/logo.png": "/static/media/logo.928af87868c794c68b62.png",
+    "static/media/person2.png": "/static/media/person2.7b71d49ff5b9c8d1d533.png",
+    "static/media/person4.png": "/static/media/person4.79e8ea44ffc7504697b5.png",
+    "static/media/person5.png": "/static/media/person5.2fa52d614dee362d8e65.png",
+    "static/media/arte.jpg": "/static/media/arte.6c6c18e25b51de8121ef.jpg",
+    "index.html": "/index.html",
+    "main.5e83452e.css.map": "/static/css/main.5e83452e.css.map",
+    "main.48d000d2.js.map": "/static/js/main.48d000d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e83452e.css",
+    "static/js/main.48d000d2.js"
+  ]
+}

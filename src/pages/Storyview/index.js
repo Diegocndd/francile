@@ -32,7 +32,7 @@ const Storyview = () => {
               <div id='stories-person' style={{backgroundImage: `url(${person3Path})`}} />
               <div id='user-data-stories'>
                 <p style={{color: 'white'}}>Laura Levin</p>
-                <p style={{color: 'white', fontSize: 12}}>4m ago</p>
+                <p style={{color: 'white', fontSize: 12}}>Il y a 4 minutes</p>
               </div>
             </div>
 
